@@ -1,0 +1,15 @@
+@mixin font-fam( $fam, $filename, $style: 'normal', $weight: 'normal' ){
+	@font-face{
+		font-family: $fam;
+		src: url('#{$filename}.eot?') format( 'eot' );
+		src: url('#{$filename}.woff2') format( 'woff2' );
+		src: url('#{$filename}.woff') format( 'woff' );
+		src: url('#{$filename}.ttf') format( 'truetype' );
+		font-style: $style;
+		font-weight: $weight;
+	}
+}
+@mixin font-size($size) {
+	font-size: ($size * 16) + px;
+	font-size: $size + em;
+}

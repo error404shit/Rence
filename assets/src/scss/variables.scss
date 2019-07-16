@@ -1,0 +1,32 @@
+$title-color: #edaa4e;
+$notosans_extrabold: "notosans_extrabold";
+$notosans_semibold: "notosans_semibold";
+$notosans_medium: "notosans_medium";
+$notosans_regular: "notosans_regular";
+%bg-light-container{
+	background-color: #fffefe!important;
+}
+%title-bg{
+	background-color: $title-color;
+}
+%nav-events{
+	background-color: #2b9daf !important;
+	color: #ffffff !important;
+	border-bottom: solid #003147 !important;
+}
+%post-title{
+	color: #e14b3b;
+	border-bottom: 3px solid #e14b3b !important;
+	text-transform: uppercase;
+}
+%content-title{
+	line-height: 1.2;
+	height: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	max-width: 100%;
+	margin-bottom: 0;
+}

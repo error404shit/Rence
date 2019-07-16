@@ -1,0 +1,4 @@
+@include font-fam('notosans_extrabold', '../../src/fonts/#{$notosans_extrabold}', 'normal', 'bolder');
+@include font-fam('notosans_semibold', '../../src/fonts/#{$notosans_semibold}', 'normal', 'bold');
+@include font-fam('notosans_medium', '../../src/fonts/#{$notosans_medium}', 'normal', 'normal');
+@include font-fam('notosans_regular', '../../src/fonts/#{$notosans_regular}', 'normal', 'normal');
